@@ -1,0 +1,36 @@
+vertical-text {
+    padding: 0 4px;
+    height: auto;
+}
+
+        /*padding: 0; margin: 0;*/
+        /*box-sizing: border-box;*/
+        /*font-family:"微軟正黑體";*/
+            
+            *{
+                background-color: #002B5B;
+                padding: 0; margin: 0;
+                box-sizing: border-box; 
+                font-family:"微軟正黑體";
+            }
+            h1 {
+                color:#FFFFFF; /*顏色*/
+                font-size: 2.5em; /*字體大小*/
+                letter-spacing: 2px; /*字體間距*/
+                line-height: 1.5; /*行高。通常會用數字代表正常高的倍數 */
+                font-weight: 500; /*字體粗細，數字最大 900，越大越重，預設*/
+                /*text-decoration: underline; 底線，最長是用 none 來把超連結醜醜的底線移除*/
+                /*font-style: italic; 斜體*/
+                opacity: 0.5; /*不透明度*/
+                text-align: center; /*文字對齊方向*/
+                font-family: arial, sans-serif; /*字體，如果第一個沒有就依序往後*/
+            }
+            h2{
+                color:#FFFFFF;
+                font-size: 0.8em;
+                opacity: 0.5;
+            }
+               a {
+                margin: 0 10px; /*超連結的間距*/
+            }
+            
